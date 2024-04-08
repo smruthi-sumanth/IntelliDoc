@@ -30,10 +30,10 @@ class ImageProcessor:
         
         return image
 
-diabetes_model = pickle.load(open('/home/smruthi_rao/Desktop/IntelliDoc/Saved models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('IntelliDoc/Saved models/diabetes_model.sav', 'rb'))
 heart_disease_model = pickle.load(open('IntelliDoc/Saved models/heart_disease_model.sav', 'rb'))
 parkinsons_model = pickle.load(open('IntelliDoc/Saved models/parkinsons_classifier.sav', 'rb'))
-pneumonia_model = load_model('/home/smruthi_rao/Desktop/IntelliDoc/Saved models/pneumonia_cnn.h5')
+pneumonia_model = load_model('/IntelliDoc/Saved models/pneumonia_cnn.h5')
 
 
 
