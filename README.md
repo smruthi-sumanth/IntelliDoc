@@ -1,5 +1,4 @@
-IntelliDoc
-Deployed App link - https://intellidoc.streamlit.app/
+#IntelliDoc
 
 A medical app that can predict various diseases. It has the following componwnts:
 
